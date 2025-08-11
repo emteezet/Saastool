@@ -1,4 +1,6 @@
+
 import '../styles/Hero.css'
+import saastool from '../assets/saastool.svg';
 
 const Hero = () => {
     return ( 
@@ -9,7 +11,7 @@ const Hero = () => {
 
                 
                     <div className="hero-img">
-                        <img src="./src/assets/saastool.svg" alt="Laptop image" />
+                        <img src={saastool} alt="Laptop image" />
                     </div>  
 
                     <div className="hero-header">
