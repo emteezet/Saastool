@@ -1,6 +1,6 @@
 
 import '../styles/Hero.css'
-import saastool from '../assets/saastool.svg';
+import saastool from '../assets/saastool.svg'
 
 const Hero = () => {
     return ( 
