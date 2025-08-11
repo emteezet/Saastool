@@ -1,0 +1,18 @@
+:root{
+  --primary-color: #1E90FF;
+  --secondary-color: #2ECC71;
+  --dark-text: #2C3E50;
+  --Light-Background:#FAFAFA;
+  --Card-Background:#F0F2F5;
+  --Highlight-Color:#F39C12;
+  --Link-Accent-Color:#6C5CE7;
+}
+
+/* 
+ **Primary Color**     | Ocean Blue    | `#1E90FF` | Buttons, headings, key highlights           |
+| **Secondary Color**   | Emerald Green | `#2ECC71` | Accents, badges, icons                      |
+| **Dark Text**         | Charcoal Gray | `#2C3E50` | Main text content                           |
+| **Light Background**  | Snow White    | `#FAFAFA` | Section backgrounds                         |
+| **Card Background**   | Light Gray    | `#F0F2F5` | Cards, pricing boxes, testimonials          |
+| **Highlight Color**   | Amber Gold    | `#F39C12` | CTA icons, pricing tags, attention grabbers |
+| **Link/Accent Color** | Slate Blue    | `#6C5CE7` | Navigation links, hover effects             | */

@@ -1,0 +1,20 @@
+.services{
+    padding: 40px;
+    background-color: var(--primary-color);
+    text-align: center;
+    gap: 20px;
+    color: var(--dark-text);
+
+    h1{
+        margin: 10px 0;
+        color: var(--Light-Background);
+    }
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
