@@ -1,31 +1,28 @@
-import { BrowserRouter as Router, Routes } from 'react-router-dom';
-import './App.css';
-import './styles/root.css';
-import Nav from './components/Nav';
-import Home from './Pages/Home';
-import Hero from './components/Hero'
-import Services from './components/Services';
-import PricePlan from './components/PricePlan';
-import SubForm from './components/SubForm';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import "./styles/root.css";
+import Nav from "./components/Nav";
+import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import Footer from "./components/Footer";
+import Auth from "./Pages/Auth";
+import Contact from "./Pages/Contact";
 
 function App() {
- 
-
   return (
     <>
       <Router>
         <Nav />
-          {/* <Routes path= '/' element= {<Home />} /> */}
-        <Hero />
-        <Services />
-        <PricePlan />
-        <SubForm />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/auth" element={<Auth />} />
+        </Routes>
         <Footer />
       </Router>
-     
     </>
-  )
+  );
 }
 
-export default App
+export default App;

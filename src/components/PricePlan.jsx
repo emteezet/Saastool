@@ -49,7 +49,14 @@ const PricePlan = () => {
     
     return (
         <div className="price-plan">
-            <h1 className="price-plan__title">Choose Your Plan</h1>
+            {/* <h1 className="price-plan__title">Choose Your Plan</h1> */}
+
+             <p class="center-text">Pricing</p>
+            <h1 class="section-header">Affordable Plans To Scale Your <span class="purple-header">Business</span></h1>
+            <p class="center-text">Explore our flexible pricing designed to suit business of all sizes. Whether <br /> you're just starting out or scaling up, 
+                we have the perfect plan for you.</p>
+
+
             <div className="price-plan__cards">
                 {plans.map((plan, index) => (
                     <PricingCard
