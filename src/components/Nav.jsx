@@ -15,29 +15,28 @@ const Nav = () => {
     <header className="NavBar">
       <nav>
         <div className="logo" onClick={closeMenu}>
-          <Link to="./">Saastool</Link>{" "}
+          <Link to="./">Saastool</Link>
         </div>
 
         <ul className={isMenu ? "nav-col" : ""}>
           <li onClick={closeMenu}>
-            {" "}
-            <NavLink>Blogs</NavLink>{" "}
+            <NavLink to="./blog">Blogs</NavLink>
           </li>
           <li onClick={closeMenu}>
-            {" "}
-            <NavLink>Pricing</NavLink>{" "}
+            <ScrollLink to="price-plan" smooth={true} duration={200} spy={true}>
+              Pricing
+            </ScrollLink>
           </li>
           <li onClick={closeMenu}>
-            {" "}
-            <NavLink>Testimonial</NavLink>{" "}
+            <NavLink>Testimonial</NavLink>
           </li>
           <li onClick={closeMenu}>
-            {" "}
-            <NavLink>Services</NavLink>{" "}
+            <ScrollLink to="services" smooth={true} duration={200} spy={true}>
+              Services
+            </ScrollLink>
           </li>
           <li onClick={closeMenu}>
-            {" "}
-            <NavLink to="./contact">Contact Us</NavLink>{" "}
+            <NavLink to="./contact">Contact Us</NavLink>
           </li>
         </ul>
 

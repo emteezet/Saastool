@@ -7,6 +7,7 @@ import AboutUs from "./Pages/AboutUs";
 import Footer from "./components/Footer";
 import Auth from "./Pages/Auth";
 import Contact from "./Pages/Contact";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer />
       </Router>
