@@ -1,5 +1,5 @@
-import Signin from "../Pages/Signin";
-import Signup from "../Pages/Signup";
+import Signin from "../pages/Signin";
+import Signup from "../pages/Signup";
 
 const Auth = () => {
   return (
