@@ -1,3 +1,6 @@
+import { NavLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+
 import "../styles/Hero.css";
 import saastool from "../assets/saastool.svg";
 
@@ -24,8 +27,19 @@ const Hero = () => {
             </div>
 
             <div class="hero-btns">
-              <button>Get Started</button>
-              <button class="btns-border">Get Demo</button>
+              <button>
+                <NavLink to="./auth">Get started</NavLink>
+              </button>
+              <button class="btns-border">
+                <ScrollLink
+                  to="subscription-container"
+                  smooth={true}
+                  duration={200}
+                  spy={true}
+                >
+                  Get Demo
+                </ScrollLink>
+              </button>
             </div>
           </div>
         </div>

@@ -3,10 +3,9 @@ import "../styles/AboutUs.css";
 const AboutUs = () => {
   return (
     <section className="aboutus-section">
+      <div className="aboutus-image"></div>
       <div className="aboutus-header">
-        <h1 className="section-header">
-          About <span className="purple-header">Saastool</span>
-        </h1>
+        <h1 className="section-header">About Us</h1>
         <p className="center-text">
           Empowering businesses with smart SaaS solutions for a productive
           future.

@@ -3,34 +3,56 @@
   max-width: 900px;
   margin: 60px auto 40px auto;
   padding: 40px 24px;
-  background: #fff;
+  background: var(--Light-Background);
   border-radius: 18px;
   box-shadow: 0 4px 24px 0 rgba(80, 37, 255, 0.07);
 }
 
-.aboutus-header {
+.aboutus-image {
+  overflow: hidden;
   text-align: center;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
+  /* background-color: red; */
+  height: 400px;
+  background-image: url(../assets/aboutus.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
 
-.aboutus-header .section-header {
-  font-size: 2.5rem;
-  font-weight: 700;
+.aboutus-header {
   margin-bottom: 10px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin-bottom: 10px;
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--Light-Background);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    text-align: center;
+    color: var(--Light-Background);
+    font-size: large;
+  }
 }
 
-.aboutus-header .purple-header {
-  color: #5025ff;
-}
+/* .aboutus-header .purple-header {
+  color: var(--primary-color);
+} */
 
-.aboutus-header .center-text {
-  color: #666;
+/* .aboutus-header .center-text {
+  color: var(--dark-text);
   font-size: 1.1rem;
   margin-bottom: 0;
-}
+} */
 
 .aboutus-content {
-  color: #333;
+  color: var(--dark-text);
   font-size: 1.15rem;
   line-height: 1.7;
   display: flex;

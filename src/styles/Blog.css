@@ -7,6 +7,10 @@
 }
 
 .header {
+  background-image: url(../assets/saasheading.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: var(--Card-Background);
   padding: 5rem 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -31,7 +35,7 @@
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.25;
-  color: var(--dark-text);
+  color: var(--Light-Background);
 }
 
 @media (min-width: 768px) {
@@ -44,7 +48,7 @@
   margin-top: 1rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: var(--dark-text);
+  color: var(--Light-Background);
   max-width: 42rem;
   margin-left: auto;
   margin-right: auto;

@@ -5,7 +5,7 @@ const Auth = () => {
   return (
     <>
       <Signin />
-      <Signup />
+      {/* <Signup /> */}
     </>
   );
 };
