@@ -3,7 +3,6 @@ import "../styles/AboutUs.css";
 const AboutUs = () => {
   return (
     <section className="aboutus-section">
-      <div className="aboutus-image"></div>
       <div className="aboutus-header">
         <h1 className="section-header">About Us</h1>
         <p className="center-text">
@@ -11,6 +10,8 @@ const AboutUs = () => {
           future.
         </p>
       </div>
+      <div className="aboutus-image"></div>
+
       <div className="aboutus-content">
         <p>
           Saastool was founded with a vision to revolutionize the way businesses

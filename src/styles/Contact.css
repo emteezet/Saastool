@@ -44,3 +44,9 @@
 .contact-form button:hover {
   opacity: 0.8;
 }
+
+@media (width < 768px) {
+  .contact-container {
+    width: 80vw;
+  }
+}

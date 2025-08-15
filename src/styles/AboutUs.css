@@ -22,10 +22,9 @@
 }
 
 .aboutus-header {
-  margin-bottom: 10px;
   background-color: var(--primary-color);
   padding: 20px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 
   h1 {
     font-size: 2.5rem;
@@ -40,16 +39,6 @@
     font-size: large;
   }
 }
-
-/* .aboutus-header .purple-header {
-  color: var(--primary-color);
-} */
-
-/* .aboutus-header .center-text {
-  color: var(--dark-text);
-  font-size: 1.1rem;
-  margin-bottom: 0;
-} */
 
 .aboutus-content {
   color: var(--dark-text);
