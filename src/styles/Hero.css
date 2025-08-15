@@ -110,8 +110,13 @@
 
 /* mobile screens */
 
-@media (width < 768px) {
+@media (width < 700px) {
   .hero-btns {
     flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .hero-section {
+    width: 100%;
   }
 }

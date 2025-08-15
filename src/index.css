@@ -1,32 +1,36 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  accent-color:var(--primary-color);
+  accent-color: var(--primary-color);
 }
 
-html{
+html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
-body{
+body {
   width: 100%;
   height: 100%;
 }
 
-
-
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: var(--dark-text);
 }

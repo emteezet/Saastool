@@ -26,14 +26,26 @@ const Nav = () => {
             <NavLink to="./blog">Blogs</NavLink>
           </li>
 
-          <li onClick={closeMenu}>
-            <ScrollLink to="price-plan" smooth={true} duration={200} spy={true}>
+          <li>
+            <ScrollLink
+              to="price-plan"
+              onClick={closeMenu}
+              smooth={true}
+              duration={200}
+              spy={true}
+            >
               Pricing
             </ScrollLink>
           </li>
 
-          <li onClick={closeMenu}>
-            <ScrollLink to="services" smooth={true} duration={200} spy={true}>
+          <li>
+            <ScrollLink
+              to="services"
+              onClick={closeMenu}
+              smooth={true}
+              duration={200}
+              spy={true}
+            >
               Services
             </ScrollLink>
           </li>
